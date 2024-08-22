@@ -61,3 +61,38 @@ body {
   border-radius: 5px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+@media screen and (max-width: 500px) {
+  .borderStyle {
+    /* font-size: 15px; */
+    width: 80vw;
+    height: 50vh;
+  }
+}
+@media screen and (max-width: 500px) {
+  .inputStyle {
+    font-size: 15px;
+    width: 60vw;
+    height: 4vh;
+  }
+}
+@media screen and (max-width: 500px) {
+  .input2Style {
+    font-size: 15px;
+    width: 60vw;
+    height: 4vh;
+  }
+}
+@media screen and (max-width: 500px) {
+  .input3Style {
+    font-size: 15px;
+    width: 60vw;
+    height: 4vh;
+  }
+}
+@media screen and (max-width: 500px) {
+  .buttonStyle {
+    font-size: 15px;
+    width: 60vw;
+    height: 4vh;
+  }
+}
