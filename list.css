@@ -218,13 +218,17 @@ body {
   /* gap: 10px; */
 }
 
-.textStyle {
+/* .textStyle {
   color: white;
   font-size: 30px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
+} */
 
 .stylee {
   display: flex;
-  gap: 30px;
+  color: white;
+  font-size: 32px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* flex-direction: column; */
+  gap: 90px;
 }
