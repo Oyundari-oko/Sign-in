@@ -3,12 +3,12 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
   font-size: 20px;
   color: white;
-  gap: 20px;
+  gap: 30px;
 }
 
 .backgroundStyle {
@@ -21,15 +21,13 @@ body {
   height: 50vh;
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
   align-items: center;
   gap: 10px;
   color: white;
-  /* padding-bottom: 500px;
-  padding-left: 100px;
-  padding-right: 100px; */
+  /* padding-right: 10 0px; */
   font-size: 60px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  /* overflow: scroll; */
 }
 
 .inputStyle {
@@ -226,15 +224,16 @@ body {
 
 .stylee {
   display: flex;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   color: white;
   font-size: 27px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   /* flex-direction: column; */
-  gap: 90px;
+  gap: 100px;
   background-color: darkolivegreen;
-  border: solid white 2px;
+  border: ridge white 1mm;
   width: 30vw;
   height: 5vh;
   border-radius: 10px;
