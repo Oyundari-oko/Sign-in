@@ -1,6 +1,5 @@
 const border = document.getElementById("border");
 border.className = "borderStyle";
-
 const alphabet = [
   "a",
   "b",
@@ -29,6 +28,7 @@ const alphabet = [
   "y",
   "z",
 ];
+const numbers = "0123456789";
 const input = document.getElementById("input");
 input.className = "inputStyle";
 input.placeholder = "Email";
@@ -59,21 +59,17 @@ button.addEventListener("click", function eValue() {
   }
   passValue();
   nuValue();
+  localStorage.setItem("email", emValue);
+  window.location.href = "list.html";
 });
 
 function passValue() {
-  // for (let i = 0; i < pasValue.length; i++) {
   const pasValue = input2.value;
   let count = 0;
   if (pasValue.length < 8) {
-    // alert("8aas deesh useg, too, temdegt bich");
     alert("8aas baga baina");
     count++;
-    // alert("Great Password");
   }
-  // else {
-
-  // }
   for (let i = 0; i < pasValue.length; i++) {
     if (alphabet.includes(pasValue[i])) {
       count++;
@@ -81,27 +77,31 @@ function passValue() {
       break;
     }
   }
+  localStorage.setItem("password", pasValue);
+  window.location.href = "list.html";
 }
 
 function nuValue() {
   let numValue = input3.value;
-  let count = 0;
-  if (numValue.length < 8) {
-    alert("8-aas baga baina");
-    count++;
-  }
   for (let i = 0; i < numValue.length; i++) {
-    if (numValue.includes(alphabet[i]) === false) {
-      alert(" useg bish too bicheerei eswel 8-aas deesh too bicheerei");
-      break;
+    if (numbers.includes(numValue[i]) == false) {
+      return alert("Too bich");
     } else {
-      alert("Bolj baina");
-      window.location.reload();
+      alert("Good");
       break;
     }
   }
+  localStorage.setItem("Number", numValue);
+  window.location.href = "list.html";
 }
-
-//  const function window() {
-//   window.location.href = "/todoList/list.html";
+// const click = document.getElementById("site");
+// function site() {
+//
+//   // const site1 = localStorage.getItem(click);
+//   window.location.href = "/todoList/index.html";
 // }
+
+// button.addEventListener("click", function () {
+// window.location.href = "/todoList/index.html";
+//   console.log(window);
+// });
