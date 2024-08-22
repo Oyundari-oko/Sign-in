@@ -4,6 +4,7 @@ input.placeholder = "Ymar negn ug, ugvvlber bichne uu?";
 const button = document.getElementById("button");
 button.className = "buttonStyle";
 const input2 = document.createElement("input");
+input2.className = "input2";
 const great = document.createElement("button");
 // const nDiv = document.getElementById("nClass");
 // nDiv.class
@@ -29,9 +30,7 @@ document.body.appendChild(nStyle);
 
 button.addEventListener("click", function text() {
   const newElement2 = document.createElement("div");
-  newElement2.style.display = "flex";
-  newElement2.style.justifyContent = "center";
-  newElement2.style.gap = "10px";
+  newElement2.className = "divStyle";
   const newElement = document.createElement("div");
   newElement.className = "Style";
   let text = input.value;
