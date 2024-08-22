@@ -226,9 +226,16 @@ body {
 
 .stylee {
   display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
-  font-size: 30px;
+  font-size: 27px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   /* flex-direction: column; */
   gap: 90px;
+  background-color: darkolivegreen;
+  border: dashed white 3px;
+  width: 30vw;
+  height: 5vh;
+  border-radius: 10px;
 }
