@@ -234,7 +234,7 @@ body {
   /* flex-direction: column; */
   gap: 90px;
   background-color: darkolivegreen;
-  border: dashed white 3px;
+  border: solid white 2px;
   width: 30vw;
   height: 5vh;
   border-radius: 10px;
