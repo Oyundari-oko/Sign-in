@@ -31,35 +31,35 @@ body {
   border: rgb(0, 255, 242);
   color: grey;
   font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .input2Style {
   height: 5vh;
   width: 15vw;
   padding-left: 10px;
-  font-size: 20px;
+  font-size: 16px;
   border: solid white;
   border-radius: 5px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .inputStyle {
   height: 5vh;
   width: 15vw;
   padding-left: 10px;
-  font-size: 20px;
+  font-size: 16px;
   border: solid white;
   border-radius: 5px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .input3Style {
   height: 5vh;
   width: 15vw;
   padding-left: 10px;
-  font-size: 20px;
+  font-size: 16px;
   border: solid white;
   border-radius: 5px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 @media screen and (max-width: 500px) {
   .borderStyle {

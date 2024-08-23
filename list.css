@@ -11,7 +11,7 @@ body {
 }
 .textStyl {
   color: white;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 65px;
 }
 
@@ -31,7 +31,7 @@ body {
   color: white;
   /* padding-right: 10 0px; */
   font-size: 60px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .inputStyle {
@@ -41,8 +41,8 @@ body {
   height: 4vh;
   border: solid white;
   padding-left: 10px;
-  font-size: 15px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
 }
 .buttonStyle {
@@ -52,7 +52,7 @@ body {
   height: 4.5vh;
   border: solid olivedrab;
   font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,7 +79,7 @@ body {
   display: flex;
   padding-left: 10px;
   align-items: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   justify-content: space-between;
 }
 
@@ -91,9 +91,9 @@ body {
   align-items: center;
   border: solid darkred;
   border-radius: 10px;
-  width: 2vw;
+  width: 2.5vw;
   height: 3vh;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 17px;
 }
 .towchluur:hover {
@@ -104,9 +104,9 @@ body {
   align-items: center;
   border: solid rgb(255, 2, 2);
   border-radius: 10px;
-  width: 2vw;
+  width: 2.5vw;
   height: 3vh;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 17px;
 }
 
@@ -118,9 +118,9 @@ body {
   align-items: center;
   border: solid orange;
   border-radius: 10px;
-  width: 2vw;
+  width: 2.5vw;
   height: 3vh;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 17px;
 }
 .edit:hover {
@@ -131,9 +131,9 @@ body {
   align-items: center;
   border: solid rgb(167, 167, 0);
   border-radius: 10px;
-  width: 2vw;
+  width: 2.5vw;
   height: 3vh;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 17px;
 }
 .ok {
@@ -144,9 +144,9 @@ body {
   align-items: center;
   border: solid darkblue;
   border-radius: 10px;
-  width: 2vw;
+  width: 2.5vw;
   height: 3vh;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 17px;
 }
 .ok:hover {
@@ -157,9 +157,9 @@ body {
   align-items: center;
   border: solid rgb(0, 0, 252);
   border-radius: 10px;
-  width: 2vw;
+  width: 2.5vw;
   height: 3vh;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 17px;
 }
 
@@ -178,7 +178,7 @@ body {
   border-radius: 10px;
   width: 2vw;
   height: 3vh;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 17px;
 }
 
@@ -192,7 +192,7 @@ body {
   border-radius: 10px;
   width: 2vw;
   height: 3vh;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 17px;
 }
 /* window.location.href = "./uiug"
@@ -224,11 +224,6 @@ body {
   border: solid white;
 }
 
-/* .textStyle {
-  color: white;
-  font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-} */
 .divStyle {
   display: flex;
   justify-content: center;
@@ -241,7 +236,7 @@ body {
   align-items: center;
   color: white;
   font-size: 27px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   /* flex-direction: column; */
   gap: 100px;
   background-color: darkolivegreen;
@@ -257,7 +252,6 @@ body {
     height: 5vh;
     font-size: 20px;
     display: flex;
-    /* flex-direction: column; */
     gap: 10px;
   }
 }
